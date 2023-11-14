@@ -4,6 +4,9 @@ Welcome to the beta of generic password detection for secret scanning. We're exc
 
 * [Learn more about generic secret detection](https://docs.github.com/en/code-security/secret-scanning/about-the-detection-of-generic-secrets-with-secret-scanning)
 
+![screenshot of a detected password](https://github.com/courtneycl/cocotests-protected/assets/3474250/a48cf707-fd5e-46c8-b273-b2746ebf6861)
+
+During the beta, you'll need to [set an enterprise policy](https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise#enforcing-a-policy-to-manage-the-use-of-generic-secret-detection-for-secret-scanning-in-your-enterprises-repositories) to manage the use of generic secret detection for secret scanning. Then, you'll need to enable AI detection in the security settings of each individual repository where you'd like to detect passwords. Enabling for all repositories at the organization and enterprise level are to come. 
 
 ## 🔗 How to Use this Repository
 

@@ -17,9 +17,9 @@ Once enabled, detected passwords [will appear in the "Other" tab](https://docs.g
 We will be using this repository to centralize **early** feedback on generic password detection for secret scanning.
 
 You can use this repository to file issues to:
-- Up-vote a feature or request a new one.
-- Search for existing issues already reported for potential workarounds.
-- File a bug report.
+- Up-vote a feature or request a new one
+- Let us know how the model is performing on your repositories 
+- File a bug report
 
 ## **[Discussions](https://github.com/github-early-access/secret-scanning-password-detection/discussions)** 
 

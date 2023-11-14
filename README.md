@@ -8,6 +8,8 @@ Welcome to the beta of generic password detection for secret scanning. We're exc
 
 During the beta, you'll need to [set an enterprise policy](https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise#enforcing-a-policy-to-manage-the-use-of-generic-secret-detection-for-secret-scanning-in-your-enterprises-repositories) to manage the use of generic secret detection for secret scanning. Then, you'll need to enable AI detection in the security settings of each individual repository where you'd like to detect passwords. Enabling for all repositories at the organization and enterprise level are to come. 
 
+Once enabled, detected passwords [will appear in the `Other` tab](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/managing-alerts-from-secret-scanning#viewing-alerts-for-generic-secrets-detected-using-ai) of your secret scanning alerts. 
+
 ## 🔗 How to Use this Repository
 
 We will be using this repository to centralize **early** feedback on generic password detection for secret scanning.

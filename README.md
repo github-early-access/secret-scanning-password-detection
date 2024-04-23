@@ -1,6 +1,6 @@
 # Secret scanning: generic password detection - limited beta
 
-Welcome to the beta of generic password detection for secret scanning. We're excited for you to test out and provide feedback as we iterate on the feature. Access to this beta is provided through a waitlist -- [sign up if you're not already a participant](https://github.com/features/preview/security)!  
+Welcome to the beta of generic password detection for secret scanning. We're excited for you to test out and provide feedback as we iterate on the feature. Access to this beta is provided through a waitlist -- talk to your account rep if you'd like to be included.  
 
 * [Learn more about generic secret detection](https://docs.github.com/en/code-security/secret-scanning/about-the-detection-of-generic-secrets-with-secret-scanning)
 

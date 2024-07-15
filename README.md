@@ -1,6 +1,6 @@
-# Secret scanning: generic password detection - limited beta
+# Secret scanning: generic password detection - public beta
 
-Welcome to the beta of generic password detection for secret scanning. We're excited for you to test and provide feedback as we iterate on the feature. Access to this beta is gated -- talk to your account rep if you'd like to be included.  
+Welcome to the beta of generic password detection for secret scanning. We're excited for you to test and provide feedback as we iterate on the feature. 
 
 * [Learn more about generic secret detection](https://docs.github.com/en/code-security/secret-scanning/about-the-detection-of-generic-secrets-with-secret-scanning)
 
@@ -8,11 +8,11 @@ Welcome to the beta of generic password detection for secret scanning. We're exc
 
 ### Getting started  
 
-[There is an enterprise policy](https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise#enforcing-a-policy-to-manage-the-use-of-generic-secret-detection-for-secret-scanning-in-your-enterprises-repositories) to manage the use of generic secret detection for secret scanning. This is set to enabled by default. You can enable AI detection in the security settings at the organization level, or you can enable it for each individual repository where you'd like to detect passwords. Enabling for all repositories at the enterprise level is to come. 
+[There is an enterprise policy](https://docs.github.com/en/enterprise-cloud@latest/admin/policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-code-security-and-analysis-for-your-enterprise#enforcing-a-policy-to-manage-the-use-of-generic-secret-detection-for-secret-scanning-in-your-enterprises-repositories) to manage the use of generic secret detection for secret scanning. This is set to enabled by default. You can enable AI detection in the code security global settings at the organization level or within the code security and analysis settings at the repository level. 
 
 Once enabled, detected passwords [will appear in the "Other" tab](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/managing-alerts-from-secret-scanning#viewing-alerts-for-generic-secrets-detected-using-ai) of your secret scanning alerts. Be sure to resolve alerts with the appropriate reason -- our engineering team will use data on the false positive rate to improve the model and increase precision over time. 
 
-## 🔗 How to Use this Repository
+### 🔗 How to Use this Repository
 
 We will be using this repository to centralize **early** feedback on generic password detection for secret scanning.
 
@@ -21,7 +21,7 @@ You can use this repository to file issues to:
 - Let us know how the model is performing on your repositories 
 - File a bug report
 
-## **[Discussions](https://github.com/github-early-access/secret-scanning-password-detection/discussions)** 
+### **[Discussions](https://github.com/github-early-access/secret-scanning-password-detection/discussions)** 
 
 Discussions should be used as much as possible for questions, ideas, and open discussions with other folks in the preview. <!-- Change out repo name in discussions link -->
 
@@ -29,7 +29,7 @@ Discussions should be used as much as possible for questions, ideas, and open di
 - ❓ [I have a question](https://github.com/github-early-access/secret-scanning-password-detection/discussions/categories/q-a)
 - ✏️ [I have something else to discuss](https://github.com/github-early-access/secret-scanning-password-detection/discussions/categories/general)
 
-## **[Issues](https://github.com/github-early-access/secret-scanning-password-detection/issues)**
+### **[Issues](https://github.com/github-early-access/secret-scanning-password-detection/issues)**
 
 Issues should be used for bug reports. <!-- Change out repo name in issues link -->
 
@@ -37,7 +37,7 @@ Issues should be used for bug reports. <!-- Change out repo name in issues link 
 
 
 
-## 🫂 Code of Conduct
+### 🫂 Code of Conduct
 
 We expect our preview participants to follow our [GitHub Community Code of Conduct](https://docs.github.com/en/site-policy/github-terms/github-community-code-of-conduct) by:
 
@@ -45,7 +45,7 @@ We expect our preview participants to follow our [GitHub Community Code of Condu
 - Contributing in a positive and constructive way
 - Being trustworthy
 
-## 🗒️ Beta Preview Policy
+### 🗒️ Beta Preview Policy
 
 As per [GitHub's Terms of Service](https://docs.github.com/en/github/site-policy/github-terms-of-service#j-beta-previews) we want to remind you that:
 
